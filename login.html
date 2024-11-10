@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    
     <style>
 
 
 
 
-
-
-
-
-
-
         body {
-    background-image: url(./images/delivarys.jpg);
-    background-size: cover;
+    background-color: rgb(217, 234, 239);
+
     background-repeat: no-repeat;
+   
         
         *{
             padding: 0px ;
@@ -44,20 +40,22 @@
         }
         #submit{
             font-size: 20px;
-            background-color: blue;
-            border: 2px solid rgb(202, 12, 12);
-            color: white;
+            background-color: white; 
+           border: 2px solid black;
+            color: rgb(50, 32, 32);
             transition: 0.4s ease-in-out;
+            float: top
+
         }
         #submit:hover{
-            background-color: gray;
-            color: green;
+            background-color: rgb(39, 91, 84);
+            color: white
             
         }
         #reset{
             font-size: 20px;
-            border: 2px solid red;
-            color: red;
+            border: 2px solid black;
+            color: rgb(50, 32, 32);
             transition: 0.4s  all ease-in-out;
         }
         #reset:hover{
@@ -115,8 +113,12 @@
     <div class="maincontainer">
 
         <div class="container">
+
+            <h1>MEGAMART</h1>
             
-            <h1>Login Page</h1>
+            <h1>Login </h1>
+            
+
             <input type="email" name="email" class="email" placeholder="Enter your email" ><br>
             <input type="password" name="password" class="password" placeholder="Enter your password"><br>
         </div>
